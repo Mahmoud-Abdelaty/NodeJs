@@ -1,0 +1,8 @@
+ node index.js add title=todoTitle body=todoBody
+ node index.js edit id=1 title=newTodoTitle body=newTodoBody
+ node index.js remove id=1
+ node index.js list type=all
+ node index.js list type=unchecked
+ node index.js list type=checked
+ node index.js complete id=1
+ node index.js uncomplete id=1

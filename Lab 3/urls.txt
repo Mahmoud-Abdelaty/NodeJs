@@ -1,0 +1,21 @@
+1- Get 
+http://localhost:8000/user
+http://localhost:8000/user/id=1
+http://localhost:8000/todo
+http://localhost:8000/todo/id=1
+
+
+
+2- Post
+http://localhost:8000/user
+http://localhost:8000/todo
+
+3- Put
+http://localhost:8000/user/id=4
+http://localhost:8000/todo/id=4
+http://localhost:8000/todo/id=4?status=complete
+http://localhost:8000/todo/id=4?status=uncomplete
+
+4- Delete
+http://localhost:8000/todo/id=1
+http://localhost:8000/user/id=1
